@@ -1,0 +1,137 @@
+:root{
+    --formtext-color:#A5A5A5;
+    --form-input-border-color:#A5A5A5;
+    --nearest-blue:#B998FF;
+    --border-color:#E2E6ED;
+}
+.documentCont{
+    height: 100vh;
+    background-color: var(--nearest-blue);
+}
+.documentHead>b{
+    font-weight: 400;
+    font-size: 40px;
+}
+.documentHead button{
+    cursor: pointer;
+    padding: 12px 20px 12px 20px;
+    background-color: green;
+    border: none;
+    color: #FFFFFF;
+    border-radius: 5px;
+    height: fit-content;
+}
+.documentHead{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 10px 30px 10px;
+    
+}
+.documentHead img{
+    height: 35px;
+    cursor: pointer;
+}
+.docb{
+    display: flex;
+    gap: 30px;
+}
+.docList{
+    background-color: aqua;
+    
+}
+.docListHeader,.docListRow{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px 5px 20px;
+
+}
+.docListHeader>p,.docListRow>p{
+    width: 100px;
+}
+.docListRow{
+    background-color: var(--nearest-blue);
+    border-bottom: 1px solid aqua;
+    padding: 2px 20px 2px 20px;
+}
+.docListRow img{
+    /* width: 50px; */
+    height: 30px;
+    cursor: pointer;
+
+}
+
+.uploadContainer{
+    position: absolute;
+    background-color: #f4fbfb;
+    padding: 30px;
+    width: 50%;
+    height: 250px;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    /* gap: 30px; */
+}
+.uploadContainer input{
+    margin-bottom: 25px;
+    outline: none;
+    padding: 5px;
+}
+
+.uploadContainer input[type=submit]{
+    width: 100px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.closePop{
+    text-align: right;
+}
+.closePop img{
+    width: 25px;
+    cursor: pointer;
+}
+
+
+.viewDocCont{
+    position: absolute;
+    background-color: #f4fbfb;
+    padding: 30px;
+    width: 80%;
+    height: 80vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    /* gap: 30px; */
+}
+.extractTitle{
+    font-size: 20px;
+    font-weight:500;
+    margin-bottom: 20px;
+    background-color: var(--nearest-blue);
+    padding: 5px 20px 5px 20px;
+}
+.extractCont{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    /* justify-content: space-around; */
+}
+.extractCont img{
+    height: 60vh;
+    width: 40%;
+}
+.exrtactionData{
+    padding: 2px;
+    height: 45vh;
+    overflow-y: auto;
+    overflow-x: auto;
+    
+}

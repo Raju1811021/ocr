@@ -1,0 +1,15 @@
+:root{
+    --btn-gradient:linear-gradient(to right, #B79DFF, #B1ACFF,#A6C5FF);
+    --nearest-blue:#B998FF;
+}
+.submitBtn{
+    color: #FFFFFF;
+    width: 190px;
+    margin: 40px auto 10px auto;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    background: var(--btn-gradient);
+}
