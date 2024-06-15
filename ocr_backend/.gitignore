@@ -1,0 +1,17 @@
+.pyc
+nbproject
+static
+media
+
+**/**/migrations
+**/migrations
+mysite.log
+*.*~
+
+__pycache__/
+**/__pycache__/
+ocr-venv/
+**/warning.log
+.idea
+**/static
+db.sqlite3
